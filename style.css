@@ -1,0 +1,56 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+#scene {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#bg, #horse {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#horse {
+  opacity: 0;
+  -webkit-box-shadow:0px 0px 27px 9px rgba(235,235,235,0.56);
+  -moz-box-shadow: 0px 0px 27px 9px rgba(235,235,235,0.56);
+  box-shadow: 0px 0px 27px 9px rgba(235,235,235,0.56);
+  /*filter: drop-shadow(0 0 12px rgba(241, 99, 4, 0.18)); */
+  transition: opacity 600ms ease;
+}
+
+#hint {
+  /*
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  font: 14px/1.25 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: rgba(238, 238, 238, 0.82);
+  background: rgba(0,0,0,0.45);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+  padding: 10px 12px;
+  max-width: 520px;
+  backdrop-filter: blur(6px);
+  animation: fadeOut 1.2s ease forwards;
+  animation-delay: 9s;
+  */
+}
+
+#hint code {
+  color: rgba(253, 0, 0, 0.92);
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; transform: translateY(6px); }
+}
