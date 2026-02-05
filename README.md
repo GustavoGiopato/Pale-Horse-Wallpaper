@@ -1,5 +1,5 @@
 # Pale-Horse-Wallpaper
-There is a 2% chance of a horse appearing every 5 five seconds
+There is a 0,2% chance of a horse appearing every 5 five seconds
 
 
 

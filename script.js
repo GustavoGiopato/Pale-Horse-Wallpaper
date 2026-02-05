@@ -1,4 +1,4 @@
-let chance = 0.30;
+let chance = 0.002;
 let checkEveryMs = 5000;
 let visibleMs = 5000;
 let cooldownMs = 7000;
